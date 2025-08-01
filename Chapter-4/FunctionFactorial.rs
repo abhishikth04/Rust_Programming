@@ -7,7 +7,7 @@ fn factorial(n: u64) -> u64 {
 }
 
 fn main() {
-    let number = 5; // Change this value to test with other numbers
+    let number = 5;
     let result = factorial(number);
     println!("The factorial of {} is {}", number, result);
 }
